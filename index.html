@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <h1>Online Store</h1>
+ <img id="basketImage" src="https://mimo.app/i/cart.png" onclick="clickCart()" >
+  <h2 id="itemCounter">0</h2>
+  <p id="orderTotal"></p>
+  <p id="shippingTotal"></p>
+  
+  <div class="product">
+   <img src="https://mimo.app/i/backpack.png">
+   <h3>Backpack</h3>
+   <button onclick="addToCart(backpack)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+   <img src="https://mimo.app/i/camera.png">
+   <h3>Camera</h3>
+   <button onclick="addToCart(camera)">Add to Cart</button>
+  </div>
+
+  <div class="container">
+   <div class="item">About Us</div>
+   
+<div class="item">
+Contact
+</div>
+
+  </div>
+  
+  <script src="script.js"></script>
+ </body>
+</html>
